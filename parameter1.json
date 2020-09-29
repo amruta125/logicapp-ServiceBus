@@ -18,7 +18,6 @@
       "value": "servicebus"
     },
     "servicebus_Connection_DisplayName": {
-      "type": "string",
       "value": "sb-connection"
     }
   }
