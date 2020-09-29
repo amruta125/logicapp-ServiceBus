@@ -21,16 +21,13 @@
       }
     },
     "workflows_name": {
-      "defaultValue": "Demo-DevOps",
       "type": "String"
     },
     "servicebus_Connection_Name": {
       "type": "string",
-      "defaultValue": "servicebus"
     },
     "servicebus_Connection_DisplayName": {
       "type": "string",
-      "defaultValue": "sb-connection"
     }
   },
   "resources": [
