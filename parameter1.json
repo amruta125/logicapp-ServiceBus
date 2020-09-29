@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "serviceBusNamespaceName": {
-      "value": "servicebusns_POC"
+      "value": "servicebusnsPOC"
     },
     "serviceBusTopicName": {
       "value": "topic"
@@ -12,13 +12,13 @@
       "value": "logicapp"
     },
     "workflows_name": {
-      "value": "DevOps_POC",
+      "value": "DevOpsPOC",
     },
     "servicebus_Connection_Name": {
       "value": "servicebus"
     },
     "servicebus_Connection_DisplayName": {
-      "value": "sb-connection"
+      "value": "sbconnection"
     }
   }
 }
