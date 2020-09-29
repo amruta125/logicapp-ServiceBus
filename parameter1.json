@@ -12,7 +12,7 @@
       "value": "logicapp"
     },
     "workflows_name": {
-      "value": "DevOpsPOC",
+      "value": "DevOpsPOC"
     },
     "servicebus_Connection_Name": {
       "value": "servicebus"
