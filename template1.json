@@ -76,14 +76,14 @@
       ]
     },
    {
-          "apiVersion": "2017-04-01",
-          "name": "[parameters('serviceBusQueueName')]",
-          "type": "Queues",
-          "dependsOn": [
-            "[concat('Microsoft.ServiceBus/namespaces/', parameters('serviceBusNamespaceName'))]"
-          ],
-          "properties": {
-            "lockDuration": "PT5M",
+     "apiVersion": "2017-04-01",
+     "name": "[parameters('serviceBusQueueName')]",
+     "type": "Queues",
+     "dependsOn": [
+        "[concat('Microsoft.ServiceBus/namespaces/', parameters('serviceBusNamespaceName'))]"
+       ],
+      "properties": {
+          "lockDuration": "PT5M",
             "maxSizeInMegabytes": "1024",
             "requiresDuplicateDetection": "false",
             "requiresSession": "false",
@@ -94,7 +94,7 @@
             "autoDeleteOnIdle": "P10675199DT2H48M5.4775807S",
             "enablePartitioning": "false",
             "enableExpress": "false"
-          }
+      }
     }, 
     {
       "type": "MICROSOFT.WEB/CONNECTIONS",
