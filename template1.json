@@ -75,7 +75,7 @@
         }
       ]
     },
-   {
+   /*{
      "apiVersion": "2017-04-01",
      "name": "[parameters('serviceBusQueueName')]",
      "type": "Queues",
@@ -95,7 +95,7 @@
             "enablePartitioning": "false",
             "enableExpress": "false"
       }
-    }, 
+    }, */
     {
       "type": "MICROSOFT.WEB/CONNECTIONS",
       "apiVersion": "2018-07-01-preview",
