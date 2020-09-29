@@ -11,6 +11,9 @@
     "serviceBusSubscriptionName": {
       "value": "logicapp"
     },
+    "serviceBusQueueName": {
+      "value": "queuePOC"
+    },
     "workflows_name": {
       "value": "DevOpsPOC"
     },
