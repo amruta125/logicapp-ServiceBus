@@ -22,6 +22,12 @@
     },
     "servicebus_Connection_DisplayName": {
       "value": "sbconnection"
+    },
+    "storageAccountName": {
+     "value": "satsgaip"
+    },
+    "containerName": {
+      "value": "container1"
     }
   }
 }
