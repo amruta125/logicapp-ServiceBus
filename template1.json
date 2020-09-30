@@ -118,27 +118,21 @@
                                     "properties": {
                                         "CustomerID": {
                                             "type": "string",
-                                            "value" : "AH-100"
                                         },
                                         "ItemQuantity": {
                                             "type": "string" ,
-                                            "value" : "100"
                                         },
                                         "LocationCode": {
                                             "type": "string",
-                                            "value" : "AL-22"
                                         },
                                         "OrderDate": {
                                             "type": "string",
-                                            "value" : "30/9/2020"
                                         },
                                         "OrderID": {
                                             "type": "string",
-                                            "value" : "OD-1"
                                         },
                                         "ProductID": {
                                             "type": "string",
-                                            "value" : "PD-123"
                                         }
                                     },
                                     "type": "object"
