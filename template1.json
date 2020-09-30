@@ -28,6 +28,12 @@
     },
     "servicebus_Connection_DisplayName": {
       "type": "string"
+    },
+    storageAccountName{
+      "type": "string"
+    },
+    containerName{
+      "type": "string"
     }
   },
   "resources": [
@@ -67,6 +73,28 @@
             }
           ]
         },
+      ]
+    },
+    {
+     "type": "Microsoft.Storage/storageAccounts",
+      "apiVersion": "2019-06-01",
+      "name": "[parameters('storageAccountName')]",
+      "location": "[resourceGroup().location]",
+      "sku": {
+        "name": "Standard_LRS",
+        "tier": "Standard"
+      },
+      "kind": "StorageV2",
+      "properties": {
+        "accessTier": "Hot"
+      }
+    },
+    {
+      "type": "blobServices/containers",
+      "apiVersion": "2019-06-01",
+      "name": "[concat('default/', parameters('containerName'))]",
+      "dependsOn": [
+      "[parameters('storageAccountName')]"
       ]
     },
     {
