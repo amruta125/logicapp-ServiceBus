@@ -29,10 +29,10 @@
     "servicebus_Connection_DisplayName": {
       "type": "string"
     },
-    storageAccountName{
+    "storageAccountName": {
       "type": "string"
     },
-    containerName{
+    "containerName": {
       "type": "string"
     }
   },
