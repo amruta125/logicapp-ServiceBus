@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "serviceBusNamespaceName": {
-      "value": "sb-tsg-aip-OrderDelivery"
+      "value": "sbtsgaipOrderDelivery"
     },
     "serviceBusTopicName": {
       "value": "orders"
