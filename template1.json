@@ -117,22 +117,28 @@
                                 "schema": {
                                     "properties": {
                                         "CustomerID": {
-                                            "type": "string"
+                                            "type": "string",
+                                            "value" : "AH-100"
                                         },
                                         "ItemQuantity": {
-                                            "type": "string"
+                                            "type": "string" ,
+                                            "value" : "100"
                                         },
                                         "LocationCode": {
-                                            "type": "string"
+                                            "type": "string",
+                                            "value" : "AL-22"
                                         },
                                         "OrderDate": {
-                                            "type": "string"
+                                            "type": "string",
+                                            "value" : "30/9/2020"
                                         },
                                         "OrderID": {
-                                            "type": "string"
+                                            "type": "string",
+                                            "value" : "OD-1"
                                         },
                                         "ProductID": {
-                                            "type": "string"
+                                            "type": "string",
+                                            "value" : "PD-123"
                                         }
                                     },
                                     "type": "object"
@@ -146,7 +152,7 @@
                             "type": "ApiConnection",
                             "inputs": {
                                 "body": {
-                                    "ContentData": "@{base64toString(triggerBody())}",
+                                    "ContentData": "@{base64(triggerBody())}",
                                     "ContentType": "application/json",
                                     "Properties": "@triggerBody()"
                                 },
