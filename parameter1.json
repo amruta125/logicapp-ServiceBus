@@ -21,10 +21,10 @@
       "value": "sbconnection"
     },
     "storageAccountName": {
-     "value": "satsgaip"
+     "value": "satsgaippoc"
     },
     "containerName": {
-      "value": "container1"
+      "value": "containerpoc"
     }
   }
 }
