@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "serviceBusNamespaceName": {
-      "value": "sbtsgaipOrderDelivery"
+      "value": "sbtsgaipOrderDelivery1"
     },
     "serviceBusTopicName": {
       "value": "orders"
@@ -21,7 +21,7 @@
       "value": "sbconnection"
     },
     "storageAccountName": {
-     "value": "satsgaippoc"
+     "value": "satsgaippoc1"
     },
     "containerName": {
       "value": "containerpoc"
