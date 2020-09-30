@@ -22,12 +22,6 @@
     },
     "servicebus_Connection_DisplayName": {
       "value": "sbconnection"
-    },
-    "containerName": {
-    "value": "blobContainer"
-    },
-    "storageAccountName": {
-    "value": "satsgaip"
-    },
+    }
   }
 }
