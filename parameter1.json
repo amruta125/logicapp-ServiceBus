@@ -11,9 +11,6 @@
     "serviceBusSubscriptionName": {
       "value": "bostonOrders"
     },
-    "serviceBusQueueName": {
-      "value": "invoice"
-    },
     "workflows_name": {
       "value": "la-tsg-aip-orderdelivery"
     },
