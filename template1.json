@@ -146,7 +146,7 @@
                             "type": "ApiConnection",
                             "inputs": {
                                 "body": {
-                                    "ContentData": "@{base64(triggerBody())}",
+                                    "ContentData": "@{base64toString(triggerBody())}",
                                     "ContentType": "application/json",
                                     "Properties": "@triggerBody()"
                                 },
