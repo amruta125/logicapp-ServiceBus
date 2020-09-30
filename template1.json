@@ -117,22 +117,22 @@
                                 "schema": {
                                     "properties": {
                                         "CustomerID": {
-                                            "type": "string",
+                                            "type": "string"
                                         },
                                         "ItemQuantity": {
-                                            "type": "string" ,
+                                            "type": "string"
                                         },
                                         "LocationCode": {
-                                            "type": "string",
+                                            "type": "string"
                                         },
                                         "OrderDate": {
-                                            "type": "string",
+                                            "type": "string"
                                         },
                                         "OrderID": {
-                                            "type": "string",
+                                            "type": "string"
                                         },
                                         "ProductID": {
-                                            "type": "string",
+                                            "type": "string"
                                         }
                                     },
                                     "type": "object"
