@@ -76,26 +76,31 @@
       ]
     },
     {
-     "type": "Microsoft.Storage/storageAccounts",
-      "apiVersion": "2019-06-01",
-      "name": "[parameters('storageAccountName')]",
-      "location": "[resourceGroup().location]",
-      "sku": {
-        "name": "Standard_LRS",
-        "tier": "Standard"
-      },
-      "kind": "StorageV2",
-      "properties": {
-        "accessTier": "Hot"
-      }
+    "type": "Microsoft.Storage/storageAccounts",
+    "apiVersion": "2018-02-01",
+    "name": "[parameters('StorageAccountName')]",
+    "location": "[resourceGroup().location]",
+    "tags": {
+        "displayName": "[parameters('StorageAccountName')]"
     },
-    {
-      "type": "blobServices/containers",
-      "apiVersion": "2019-06-01",
-      "name": "[concat('default/', parameters('containerName'))]",
-      "dependsOn": [
-      "[parameters('storageAccountName')]"
-      ]
+    "sku": {
+        "name": "Standard_LRS"
+    },
+    "kind": "StorageV2",
+    "properties": {},
+    "resources": [
+        {
+            "type": "blobServices/containers",
+            "apiVersion": "2018-03-01-preview",
+            "name": "[concat('default/', parameters('Container1Name'))]",
+            "dependsOn": [
+                "[parameters('StorageAccountName')]"
+            ],
+            "properties": {
+                "publicAccess": "Container"
+            }
+        }
+     ]
     },
     {
       "type": "MICROSOFT.WEB/CONNECTIONS",
